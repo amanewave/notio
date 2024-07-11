@@ -1,0 +1,53 @@
+front: 
+    typescript
+    styled components
+    react
+    vite
+    vitest(test)
+    redux
+
+back:
+    nodejs
+    express
+    postgresql
+    sequelize
+
+
+other:
+    figma
+    git
+    appdiagrams
+    yarn
+    postman
+
+concept:
+    admin --> director --> teacher --> class --> students
+    director(
+        add teacher
+        remove teacher
+    )
+    
+    teacher(
+        add subject
+        remove subject
+        make grades
+        change grades
+        add homework
+        remove homework
+        add students
+        remove students
+        make classes
+        remove classes
+    )
+
+    class(
+        connect to class
+        can be redacted only by teacher
+    )
+
+    students(
+        make homework
+        get grades
+        make comments
+        mark complete homework
+    )
